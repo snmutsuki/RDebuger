@@ -1,0 +1,31 @@
+# Ignore Java class file
+*.class
+
+#ignore  package file
+*.jar
+
+*.war
+
+*.nar
+
+*.ear
+
+*.zip
+
+*.tar.gz
+
+*.rar
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+
+#ignore eclipse file and dir
+.classpath
+
+.project
+
+.settings

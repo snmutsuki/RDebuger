@@ -1,0 +1,25 @@
+plugins {
+    // Apply the java-library plugin to add support for Java Library
+    id 'java-library'
+}
+
+version=1.0
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+sourceSets{
+	main{
+		java{
+			srcDirs=['src']
+		}
+	}
+}
+
+buildDir= 'bin'
